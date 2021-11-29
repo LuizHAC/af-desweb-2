@@ -1,28 +1,17 @@
-<<<<<<< HEAD
-# af-2
+# Avaliação Final  2- Desenvolvimento Web (Lab)
 
-## Project setup
-```
-npm install
-```
+# Home
+![alt text](https://github.com/LuizHAC/af-desweb-2/blob/af2/src/images/af2-home.PNG)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# About
+![alt text](https://github.com/LuizHAC/af-desweb-2/blob/af2/src/images/af2-about.PNG)
+## Drawer
+![alt text](https://github.com/LuizHAC/af-desweb-2/blob/af2/src/images/af2-drawer.PNG)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+# Map
+![alt text](https://github.com/LuizHAC/af-desweb-2/blob/af2/src/images/af2-map.PNG)
 
-### Lints and fixes files
-```
-npm run lint
-```
+# NotFound
+![alt text](https://github.com/LuizHAC/af-desweb-2/blob/af2/src/images/af2-notfound.PNG)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-=======
-# af-desweb-2
->>>>>>> 83073cb6fec817e896a55b3d93c69587ced84212
+
