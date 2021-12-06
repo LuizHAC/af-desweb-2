@@ -3,6 +3,7 @@ import About from './views/About.vue';
 import Mapz from './views/Mapz.vue';
 import Home from './views/Home.vue';
 import NotFound from './views/NotFound.vue';
+import Restaurants from './views/Restaurants.vue';
 import vuetify from './plugins/vuetify';
 import VueRouter from 'vue-router';
 
@@ -13,7 +14,8 @@ const routes = {
   '/': Home,
   '/about': About,
   '/map': Mapz,
-  '/notfound': NotFound
+  '/notfound': NotFound,
+  '/restaurants': Restaurants
 }
 
 new Vue({
