@@ -5,8 +5,8 @@
         <h1>{{title}}</h1>
         <v-row>
             <v-col
-            v-for="n in events"
-            :key="n"
+            v-for="(event, idx) in events"
+            :key="idx"
             cols="12"
             xs="6"
             sm="5"
@@ -14,7 +14,7 @@
             lg="3"
             xl="2"
             >
-                <CardsFetch :card="n"></CardsFetch>
+                <CardsFetch :card="event"></CardsFetch>
             </v-col>
         </v-row>
 

@@ -4,14 +4,13 @@
     height="100"
     width="256"
     >
-        <v-navigation-drawer-title>Drawer</v-navigation-drawer-title>
         <v-list>
             <v-list-item
-                v-for="n in data"
-                :key="n"
+                v-for="(dt, idx) in data"
+                :key="idx"
                 @click="() => {}"
             >
-                <v-list-item-title>{{n.title}}</v-list-item-title>
+                <v-list-item-title>{{dt.title}}</v-list-item-title>
             </v-list-item>
         </v-list>
     </v-navigation-drawer>

@@ -4,6 +4,7 @@ import Mapz from './views/Mapz.vue';
 import Home from './views/Home.vue';
 import NotFound from './views/NotFound.vue';
 import Restaurants from './views/Restaurants.vue';
+import store from './store';
 import vuetify from './plugins/vuetify';
 import VueRouter from 'vue-router';
 
@@ -21,6 +22,7 @@ const routes = {
 new Vue({
   vuetify,
   el: '#app',
+  store,
   data: {
     currentRoute: window.location.pathname
   },
